@@ -54,15 +54,15 @@
     width: 65vw;
 }
 
-/* Estilos para a tabela responsiva com rolagem */
+
 .table-responsive-scroll {
-    max-height: calc(60vh - 20px); /* Ajusta a altura máxima para caber dentro do content-2, subtraindo algum padding/margin se houver */
-    overflow-y: auto;  /* Adiciona a barra de rolagem vertical quando o conteúdo excede a altura */
-    border: 1px solid #dee2e6; /* Opcional: Adiciona uma borda para visualização */
-    margin-top: 10px; /* Adiciona um pequeno espaçamento superior se necessário */
+    max-height: calc(60vh - 20px); 
+    overflow-y: auto;  
+    border: 1px solid #dee2e6; 
+    margin-top: 10px;
 }
 
-/* Opcional: Estilo para a barra de rolagem (compatibilidade entre navegadores) */
+
 .table-responsive-scroll::-webkit-scrollbar {
     width: 8px;
 }
@@ -81,7 +81,6 @@
     background: #555;
 }
 
-/* Garante que a tabela dentro do contêiner ocupe a largura total */
 .table-responsive-scroll table {
     width: 100%;
 }
